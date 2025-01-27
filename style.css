@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+
+}
+.text{
+    display: flex;
+    gap: 40px;
+}
+.text a{
+    text-decoration: none;
+    color: #292F36;
+}
+@media screen and (max-width: 400px) {
+    .text a{
+        display: none;
+    }
+}
+
+main{
+    width: 1920px;
+    height: 306px;
+    background-image: url(Images.png);
+    position: relative;
+}
+.div{
+    width: 250px;
+    height: 178px;
+    background: white;
+    border-radius: 20px;
+    position: absolute;
+    top: 200px;
+    left: 650px;
+}
+@media screen and (max-width: 400px){
+    main{
+        width: 400px;
+    }
+    .div{
+        display: none;
+    }
+}
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    gap: 100px;
+}
+.cards a{
+    text-decoration: none;
+    color: #292F36;
+}
+.pop a{
+        text-decoration: none;
+        color: #292F36;
+}
+.card2 a{
+    text-decoration: none;
+    color: #292F36;
+}
+.card3 a{
+    text-decoration: none;
+    color: #292F36;
+}
+.ban{
+    width: 398px;
+    height: 300px;
+    background: #F4F0EC;
+    border-radius: 20px;
+    padding: 50px;
+}
+.ban a{
+    text-decoration: none;
+    color: #292F36;
+}
+@media screen and (max-width: 400px){
+    .ota-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .katta-bolo{
+        display: none;
+    }
+    .katta-qz-img{
+        display: none;
+    }
+    .katta-div{
+        display: none;
+    }
+}
+.bolo-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.qiz-img{
+    display: flex;
+    gap: 100px;
+}
+.qiz-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
